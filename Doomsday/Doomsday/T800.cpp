@@ -12,7 +12,7 @@ T800::T800(){
     }
 }
 
-int T800::getFirepower(){ 
+int T800::getFirepower(){
     return this->firepower;
 }
 

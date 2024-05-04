@@ -2,7 +2,7 @@
 
 Weapon::Weapon(string name){
     this->name = name;
-    if(name == "Fogueo"){
+    if(name == "Fogeo"){
         this->firepower = 4;
     }else if(name == "Bazooka"){
         this->firepower = rand() % 5 + 12;
